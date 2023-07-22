@@ -12,6 +12,7 @@ import useStyles from './styles';
 const Post = ({ post, setCurrentId }) => {
   const dispatch = useDispatch();
   const classes = useStyles();
+  
 
   return (
     <Card className={classes.card}>
