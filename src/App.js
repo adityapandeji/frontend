@@ -7,7 +7,7 @@ import Form from './components/Form/Form';
 import { getPosts } from './actions/posts';
 import useStyles from './styles';
 //import memories from './images/memories.png';
-import me from './images/me.png'
+import only from './images/only.png'
 
 const App = () => {
   const [currentId, setCurrentId] = useState(0);
@@ -21,8 +21,8 @@ const App = () => {
   return (
     <Container maxWidth="lg">
       <AppBar className={classes.appBar} position="static" color="inherit">
-        <Typography className={classes.heading} variant="h2" align="center">by Pande Aditya</Typography>
-        <img className={classes.image} src={me} alt="icon" height="60" />
+        <Typography className={classes.heading} variant="h2" align="center">Only fans</Typography>
+        <img className={classes.image} src={only} alt="icon" height="60" />
       </AppBar>
       <Grow in>
         <Container>
